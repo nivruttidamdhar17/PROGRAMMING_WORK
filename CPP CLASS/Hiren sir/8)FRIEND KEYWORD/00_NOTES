@@ -1,0 +1,39 @@
+                        FRIEND KEYOWRD
+
+1)Friend is keyword to function.
+2)Friend function must be declared in a class and given defination outside class. 
+3)Friend function can access private member outside class using object.
+4)Friend function is not a member function so call it directly.
+5)Static and virtual keyword never declared to friend function.
+
+
+
+class demo
+{
+    private:
+    int a;
+    public:
+    void one()
+    {
+        a=11;
+    }
+    friend void two();
+};
+void two()
+{
+    demo x;
+    x.a=16;
+}
+void three()
+{
+    demo y;
+    y.a=27;
+}
+int main()
+{
+    demo p;
+    p.one();
+    two();
+    three();
+    return 0;
+}

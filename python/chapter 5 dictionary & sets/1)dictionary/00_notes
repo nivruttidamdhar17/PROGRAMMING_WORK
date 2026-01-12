@@ -1,0 +1,46 @@
+                CHAPTER 5: DICTIONARY AND SETS
+
+DICTIONARY: Dictionary is a set of collection of key-values pairs.
+
+Syntax: 
+            a={"key":"value",
+              "nivrutti":"code"
+              "marks":"code",
+              "listd":[1,2,9]}
+
+    a["key"] => prints "value"
+    a["list"] => prints [1,2,9]
+
+
+
+    PROPERTIES OF A PYTHON DICTIONARIES
+
+    1) It is unordered.
+    2) It is mutable.
+    3) It is intered.
+    4) cannot contain duplicate keys.
+
+
+DICTIONARY METHODS
+--> Consider the following dictionary.
+
+        a={"name":"nivrutti",
+          "from":"india",
+          "marks":[92,98,99]}
+
+1)a.items() 
+: returns the list of (key, value) tuple
+
+2) a.keys()
+: returns a list containing dictionary's keys
+
+3) a.values()
+: returns a list containing dictionary's values.
+
+4) a.update({"friend":"sam"})
+: updates the dictionary with supplied key value pairs.
+
+5) a.get("name")
+: returns the value of the specified keys(and value is returned eg."nivrutt" is returned here)
+
+

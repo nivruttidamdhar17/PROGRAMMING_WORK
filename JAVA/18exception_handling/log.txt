@@ -1,0 +1,22 @@
+PROGRAM1 OUTPUT
+
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at program1.doMoreStuff(program1.java:13)
+	at program1.doStuff(program1.java:9)
+	at program1.main(program1.java:5)
+
+
+PROGRAM2 OUTPUT
+
+Hello
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at program2.doStuff(program2.java:10)
+	at program2.main(program2.java:5)
+
+
+PROGRAM3 OUTPUT
+
+Hello
+Hi
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at program3.main(program3.java:6)

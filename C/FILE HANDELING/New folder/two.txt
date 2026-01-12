@@ -1,0 +1,23 @@
+                                 FILE HANDELING
+________________________________________|__________________________________________
+|          |           |           |           |             |           |        |
+fopen()   fclose()   fgetc()    fputc()     fgets()     fputs()    fread()   fwrite()
+ |           |          |         |            |           |            |        |
+file       file    read single  write       read one   write one  read one   write one
+assigned   close   character    single       line      line to  object value  objectv
+to file              from     character      from        file     from line    value
+variable             line     into file      file                             into file.
+
+
+FILE NOTES:
+
+1) r : read only txt. file.
+2) r+ : read and write.
+3) rb : read binary file i.e: jpg, mp3, mp4, etc.
+4) rb+ : read and write binary file.
+5) w : write only.
+6) w+ : read binary file.
+7) wb : write binary file.
+8) wb+ : read and write binary file.
+9) a : append file.
+10) a+ : read and write.

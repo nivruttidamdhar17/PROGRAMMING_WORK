@@ -1,0 +1,102 @@
+P5: Declare a pointer to function accepting two integers and returns 
+	a pointer to array 5 of int 
+
+    Choose Name: p 
+
+    p is a pointer: 
+    *p
+
+    p is a pointer to function 
+    (*p)()
+
+    p is a pointer to a function accepting two integers 
+    (*p)(int, int)
+    
+    p is a pointer to a function accepting two integers and returning a pointer 
+    *(*p)(int, int)
+
+    p is a pointer to a function accepting two integers and returning a pointer to 
+    array 
+    (*(*p)(int, int))[]
+
+    p is a pointer to a function accepting two integers and reurning a pointer to array 5 of int 
+    int (*(*p)(int, int))[5]; 
+  
+
+P6: Declare a pointer to function accepting 
+		(1)an int
+		(2) a pointer to function accepting int and returning void  
+		returning 
+		a pointer to function accepting int and returning void
+
+    Declare pointer: Choose: p 
+    *p
+
+    Declare a pointer to function: 
+    (*p)()
+
+    Declare a pointer to a function accepting 
+        i) int 
+        (*p)(int)
+    
+    Declare a pointer to a function accepting 
+        i) int
+        ii) pointer 
+        (*p)(int, *)
+
+    Declare a pointer to a function accepting 
+        i) int
+        ii) pointer to function 
+
+        (*p)(int, (*)() ) 
+
+    Declare a pointer to a function accepting 
+        i) int
+        ii) pointer to function accepting int and returning void  
+    (*p)(int, void (*)(int)) 
+
+    Declare a pointer to function accepting 
+		(1)an int
+		(2) a pointer to function accepting int and returning void  
+		returning 
+		a pointer
+
+        *(*p)(int, void (*)(int)) 
+
+        Declare a pointer to function accepting 
+		(1)an int
+		(2) a pointer to function accepting int and returning void  
+		returning 
+		a pointer to function 
+
+        (*   (*p)(int, void (*)(int)) ) ()
+
+        Declare a pointer to function accepting 
+		(1)an int
+		(2) a pointer to function accepting int and returning void  
+		returning 
+		a pointer to function accepting int and returning void 
+
+     void (*(*p)(int, void (*)(int)))(int)
+
+P7: Declare an array 5 of pointers to function accepting two integers and 
+	returning an integer 
+
+    Declare an array : Choose name -> a 
+    a[]; 
+
+    Declare an array 5
+    a[5]; 
+
+    Declare an array 5 of pointers
+    * a[5];
+
+    Declare an array 5 of pointers to function
+    (*a[5])();
+
+    Declare an array 5 of pointers to function accepting two integers
+    (*a[5])(int, int);
+
+    Declare an array 5 of pointers to function accepting two integers and 
+	returning an integer    
+    int (*a[5])(int, int);

@@ -1,0 +1,17 @@
+                    DEFAULT ARGUEMENT FUNCTION
+
+--> Pass default value to parameters.
+--> Default value pass must be last parameters.
+--> If we pass default value to starting parameters variable, then compile time error.
+
+    void sum(int a, int b, int c=34)
+    {
+        ----------
+        ----------
+    }
+
+    void sum(int a, int b=9, int c=5)
+    {
+        ------------
+        ------------
+    }

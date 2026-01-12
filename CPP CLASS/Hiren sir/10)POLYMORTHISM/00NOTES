@@ -1,0 +1,66 @@
+                                POLYMORPHISM
+
+            
+TYPES
+
+                                                        FUNCTION OVRLOADING(1.FUNCTION NAME SAME,2.PARAMETERS MUST BE DIFFERENT)
+                                                        /
+1)COMPILE TIME----->STATIC BINDING------>EARLY BINDING
+                                                        \OPERATOR OVRLOADING(1. OPERAOR USED IN OBJECT)
+                                        
+
+
+
+
+
+
+2)RUNTIME----->DYNAMIC BINDING----->FUNCTION OVERRITING(1.FUNCTION NAME SAME.
+                                                        2.PARAMETERS MUST BE SAME.
+                                                        3)FUNCTION RETURN TYPE(DATATYPE) MUST BE SAME.
+                                                        4)USED INHERITANCE.
+                                                        5)BASE CLASS FUNCTION MUST BE VIRTUAL.)
+
+                                                        
+                                                        
+                                                    
+
+1) FUNCTION/METHOD OVERRIDING:
+        i)If parent class reference variable have a self class object then it always call self class original property,
+        but it never call any child class property.
+
+        ii)If parent class reference variable have a child class object then it first gives the preference to chils 
+        class overriden property.
+        but if child class have an overriden property then it call self class original property, but self class does not
+        have a mathod then it throw compiletime error but it never call any child class original property.
+
+
+
+
+                PURE VIRTUAL FUNCTION
+
+i)A function must be virtual and equal to 0.
+        e.g: virtual void area()=0;
+
+ii) pure virtual function must be declared in a class.
+
+iii) if a class have a pure virtual function, then class becomes an abstract class.
+
+iv) we never create an object of abstract class.
+
+v) if a normal class inheriates abstract class then must override all pure virtual function.
+
+
+2) OPERATOR OVERLOADING:
+        i)Operator used in objects then we have do overload it.
+        
+
+
+                
+
+                **THIS**
+i) It is keyword and used for calling current class member variable.
+ii) It is inbuilt pointer varible so member called by '->' operator.
+
+
+
+

@@ -1,0 +1,93 @@
+/*                       C Plus-plus  (CPP)
+                    
+    CPP  ==> C with classes
+
+    CPP  ==>      OOPS             +              POS
+                    |                              |
+                    |                              |
+            OBJECT ORIENTED PROGRAMMING      PROCETURAL ORIENTED SYSTEM
+            SYSTEM (class based)                (function based)
+
+
+
+
+Addition of two numbers and multiplication of three numbers by OOPS and area of circle by POS.
+C (POS)
+int add(int a, int b)
+{ 
+    int c=a+b;
+    printf("%d",c);
+}
+int mul(float a, float b, float c)
+{
+    float d=a*b*c;
+    printf("%d",d);
+}
+int area(float r)
+{
+    float a=3.14*r*r;
+    printf("%f",a);
+}
+int main
+{
+    add (7,9);
+    mul (2.4,9.8,7.6);
+    area (2.94)
+}
+
+
+
+
+
+CPP ==> OOPS+POS
+
+class arith
+{
+    public;
+    int add(int a, int b);
+    {
+        int c=a+b;
+        cout<<c;
+    }
+    int mul(float a, float b, float c)
+    {
+        float d=a*b*c;
+        cout<<d;
+    }
+};
+void area(float r)
+{
+    float a=3.14*r*r;
+    cout<<a;
+}
+void main()
+{          
+    arith x;  // (x)-->object referential variable 
+    x.add(6,9);
+    x.mul(3.5,6.4,7.4);
+    area(2.94)
+}
+
+
+
+            ACCESS SPECIFIERS
+
+        1)PRIVATE==> Never access outside class and never inherits.
+        2)PROTECT==> Never access outside class but can inherits protect property.
+        3)PUBLIC==> Access outside class and can inherits public property.
+
+
+C SYNTAX:
+int a; float b; char s[30];
+a=91;
+scanf("%d%f%s",&a,&b,&s);
+printf("%d %f %s\n",a,b,s);
+printf("Value of a=%d\n",a);
+
+
+CPP SYNTAX:
+cin>>a;
+cin>>b;
+cin>>a>>b>>s;
+cout<<a<<" "<<b<<" "<<s<<endl;
+cout<<"value of a="<<a<<endl;

@@ -1,0 +1,29 @@
+                    STRING
+ ----> STRING HAS MULTIPLE CHARACTERS.
+ ----> "" IS SYMBOL OF STRING.
+ ----> STRING DEFINE BY char[] OR char*.
+ ----> EVERY STRING'S LAST CHATACTER IS '\0' (NULL CHARACTER)
+
+     EXAMPLE:  
+                     char[100]="pratik"
+
+  char s[100];
+  enter string
+  scanf("%s",s)
+       or
+  gets(s);
+
+
+string functions 
+|             |             |               |
+strcpy()    strcat()     strlen()       strucmp()
+    |           |           |               |
+string        string      count         compare 
+copy          concat      characters     2 string
+                                         _____|__________________________
+                                        |               |              |
+                                      ==0              <0             >0
+                                       |                |              |
+                                    both string     first string     first strig greater 
+                                    are equal.      small to second   than second string.
+                                                      string.    

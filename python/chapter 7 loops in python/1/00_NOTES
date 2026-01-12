@@ -1,0 +1,30 @@
+                LOOPS IN PYTHON
+
+    Sometimes we want to repeat a set of statement in out program for instances.
+
+    loops makes it easy for a programmer to tell the computer, which set of instruction to repeat and how.
+
+TYPES OF LOOPS IN PYTHON
+    Primarily there are two types of loops in python.
+    1)while loop.
+    2)for loop.
+
+    we will look into these one by one.
+
+1) WHILE LOOP
+    The syntax of a while loop looks like this:
+
+    while condition:
+        #body of the loop       ------the block keeps executing until the condition is true
+
+    In while loop the condition is checked first.if it evaluate to true, the body of the loop is executed, otherwise not!
+    If the loop is entered, the process of [condition check and execution] is continued until the condition becomes false.
+
+    example:
+        i=0
+        while i<5:               ------->prints harry 5 times
+        print("Harry)
+        i=i+1
+
+    
+    Note: If the condition never becomes false, the loop pars getting executed.

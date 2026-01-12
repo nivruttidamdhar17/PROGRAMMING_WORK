@@ -1,0 +1,104 @@
+                            file handling
+                        
+--- performs action on file.
+--- use header "#include<fstream>".
+
+**types**
+1)   ifstream:-
+    --- input file stream.
+    --- read only files.
+
+2)  ofstream:-
+    --- output file stream.
+    --- write only file.
+
+3)  fstream:-
+    --- file stream.
+    --- read and write file.
+
+
+**operations**
+1)  open()
+    --- file assign.
+
+2)  close()
+    --- close file means release file.
+
+3)  get()
+    --- read only one character from file.
+
+4)  put()
+    --- write on charactr into file.
+
+5)  read()
+    --- read object value from file.
+
+6)  write()
+    --- write object value into file.
+
+7) eof(): end of file
+    --- returns '1' if file is finished else return '0' if file is not finished.
+
+
+**exception handling**
+
+    --- to handle runtime error and used for creating runtime errors.
+    --- there are only three keywords in exception handling.
+
+1) try:- consists runtime errors statements.
+
+2) catch:- solve the runtime errors which is occuring in try block.
+
+3) throw:- used for creating runtime errors.
+
+    ---throw syntax:- 
+
+    ---throw variable:-
+
+    it is 100% runtime error statement. so when compiler executes it, then it throw runtime error and program execution terminates.
+
+**templates**
+
+1)  function templet: function overloading
+
+2)  class templet: class overloading.
+
+function overloading:-
+        \* void add(int a, int b)
+         {
+            int c=a+b;
+            cout<<"addition : <<c<<endl;
+         }
+         void add(float a, float b)
+        {
+            float c=a+b;
+            cout<<"addition: "<<c<<endl;
+        }
+        void add(long a,long b)
+        {
+            long c=a+b;
+            cout<<"addition: "<<c<<endl;
+        }        
+        int main()
+        {
+            add(7.2,8.9)
+            add(6l,3l)
+            add(3,6)
+            return 0;
+        }
+       */
+
+using template:-
+        template<class t>
+        void add(t p, t a)
+        {
+            t r=p+a;
+            cout<<"addition: "<<r<<endl;
+        }
+        int main()
+        {
+            add(6.2,7.9)
+            add(7l,11l)
+            add(3,10)
+            return 0;
+        }}

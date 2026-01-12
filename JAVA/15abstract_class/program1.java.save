@@ -1,0 +1,41 @@
+abstract class Vehicle
+{
+	abstract int getnoofwheels();
+}
+
+class Bus extends Vehicle
+{
+	public int getnoofwheels()
+	{
+		return 6;
+	}
+}
+
+class Bike extends Vehicle
+{
+	public int getnoofwheels()
+	{
+		return 2;
+	}
+}
+
+class Auto extends Vehicle
+{
+	public int getnoofwheels()
+	{
+		return 3;
+	}
+}
+
+class Test1
+{
+	public static void main(String[] args)
+	{
+		Bus B =new Bus();
+		Bike Bi = new Bike();
+		Auto A = new Auto();
+		System.out.println("Wheels of Bus: "+B.getnoofwheels());
+		System.out.println("Wheels of Bike: "+Bi.getnoofwheels());
+		System.out.println("Wheels of Auto: "+A.getnoofwheels());
+
+	}

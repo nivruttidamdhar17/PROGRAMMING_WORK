@@ -1,0 +1,161 @@
+                          STRUCTURE
+
+SYNTAX:
+struct structurename
+{
+    attributes(member variable);
+}
+
+e.g: 
+1)EMPLOYEE
+struct emp
+{
+    int eid;
+    char ename[30];
+    float salary;
+    char designation[60];
+}
+
+code:
+#include<stdio.h>
+int main()
+{
+    struct employee x;
+    x.eid=101;
+    strcpy(ename,"nivrutti");
+    x.salary=100000;
+    strcpy(x.designation,"HK");
+}
+
+
+2)STUDENT 
+struct student
+{
+    int rno;
+    char sname[30];
+    char course[60];
+    float percentage;
+}
+
+code:
+int main()
+{
+    struct student y;
+    y.rno=95;
+    strcpy(y.sname,"jatin");
+    strcpy(y.course,"BE");
+    y.percentage=94.33;
+}
+
+
+
+3)PRODUCT
+struct product 
+{
+    int pid;
+    char pname[60];
+    char desc[100];
+    char mtype;
+    float pricr;
+}
+
+
+
+GLOBAL VARIABLE: global variable can be used in anywhere in c file.
+
+LOCAL VARIABLE: Local variable used in current block.
+
+e.g:
+int a; //global variable
+int main()
+{
+    int b; //local variable
+    a=14;   
+    b=21; 
+}
+
+
+
+LOCAL STRUCTURE
+
+void main()
+{                                     _
+    struct emp                         |
+    {                                  |
+        int eno;                       |_ // local structure.
+        char ename[30];                |
+    };                                _|
+    struct emp;
+    struct x;
+    x.eno=103;
+    strcpy(x.ename,"jatin");
+}
+void one()
+{
+    struct emp y; //-----wrong
+}
+
+
+
+NESTED STRUCTURE
+//The structure present inside a structure.
+1)
+struct student
+{
+    int rno;
+    char sname;
+    struct marks;
+    {
+        int m1, m2, m3;
+    }
+    struct marks m;
+};
+void main()
+{
+    struct student x;
+    x.rno;
+    strcpy(x.sname,"jatin");
+    x.m.m1=60;
+    x.m.m2=70;
+    x.m.m3=40;
+}
+
+2)
+struct emp
+{
+    int eno;
+    char ename[20];
+    struct dept
+    {
+        int dno;
+        char dname[30];
+    }
+    struct dept p;
+};
+int main()
+{
+    struct emp;
+    x.eno=101;
+    strcpy(x.ename,"jatin");
+    x.p.dno=102;
+    strcpy(x.p.dname,"HR");
+}
+
+3)
+struct emp
+{
+    int eno;
+    char ename[30];
+    float salary;
+};
+int main()
+{
+    struct emp *x;
+    struct emp y;
+    x->eno=101; || (*x).eno=101;
+    strcpy(x->ename,"jatin")||strcpy((*x).ename,"jatin");
+    x->salary=60000||(*x).salary=60000;
+    y.eno=102;
+    strcpy(y.ename,"pratik");
+    y.salary=65000;
+}

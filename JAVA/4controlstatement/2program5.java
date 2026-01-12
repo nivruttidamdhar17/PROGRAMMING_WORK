@@ -1,0 +1,33 @@
+class Program5
+{
+	public static void main(String[] args)
+	{
+		int input=5000;
+		if(input>0 && input<=100)
+		{
+			System.out.println("Genin");    /* as genin's range is
+							varies in between 0 to 100*/
+		}
+		else if(input>100 && input<=500)
+		{
+			System.out.println("Chunin");
+		}
+		else if(input>500 && input<=1000)
+		{
+			System.out.println("Jonin");
+		}
+		else if(input<0)
+		{
+			System.out.println("Invalid entry/ negative number entered");
+		}
+		else if(input>1000)
+		{
+			System.out.println("Hokage");
+		}
+		else
+		{
+			System.out.println("Invalid Entry");
+		}
+
+	}
+}

@@ -1,0 +1,68 @@
+                   CHAPTER 6: CONDITIONAL EXPRESSION
+            
+
+Sometimes we want to play pub-g on our phones if the day is sunday
+
+sometimes we order icecream online if the day is sunday.
+
+sometimes we go hiking if our parents allows.
+
+All these are decision which depends on a condition being met.
+
+In python programming too, we must be able to excuze instruction on a condition(s) being act. This is what conditional are for!
+
+
+IF ELSE AND ELIF IN PYTHON.
+If else and elif statement are a multiplying decision taken by our program due to certain condition in our code.
+
+
+
+SYNTAX:
+
+    if(condition1): ----if condition 1 is true
+    print("yes")
+    elif(condition2):----if condition 2 is true
+    print("no")
+    else:            -----otherwise
+    print("maybe")
+
+
+
+RELATIONAL OPERATORS:
+Relational operators are used to calculate condition inside the if statement. some examples of relational operators are:
+
+        ==    ----> equal to
+        >=    ----> greater than/equal to
+        <=    ----> less than/equal to
+
+
+
+LOGICAL OPERATORS:
+In python logical operators on conditional statements .
+ex:
+    and -->true if both operators are true else false.
+    or  -->true if at lesat on operator is true else false.
+    not -->inverts true to false and false to true.
+
+
+
+elif clause:
+elif in python means[else if]. An if statement can be changed togeter with a lot of these elif statement followed by an else statement.
+
+    if(condition1):
+        #code
+    elif(condition2):
+        #code
+    elif(condition3):
+        #code
+    else:
+        #code
+
+    ---> This ladder will stop once a condition in an if or elif is true.
+
+
+
+IMPORTANAT NOTES:
+
+1)There can be any number of elif statememt.
+2)Last else is executes only if all the condition inside elif fail.

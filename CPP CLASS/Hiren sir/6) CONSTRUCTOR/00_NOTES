@@ -1,0 +1,66 @@
+/*                        CONSTRUCTOR
+
+1) It is used for member variable initialization.
+2) When we create an object of class then compiler automatically calls constructor.
+3) If user do not creates any constructor in a class then compoiler automatically creates a default constructor in class.
+4)constructur name and class name must be same.
+5) Do not define datatype to constructor, and do not return value in a constructor.
+
+
+**TYPES OF CONSTRUCTOR**
+    
+1) DEFAULT CONSTRUCTOR
+            i) complie creates
+            ii) user creates
+2) PARAMATERISED
+            i) Demo(int a, float b)
+               {
+                   ------
+                   ------
+               }
+3) COPY 
+        i) Demo(int a, float b)
+           {
+               ------
+               ------
+           }
+4) DEFAULT ARGUMENTS
+        i) Demo(int a, float b=7.9)
+           {
+               ------
+               ------
+           }
+5) DYNAMIC
+        i) Demo(int a*)
+        {
+            must use new operator in logic.-------
+        }
+            
+            
+            
+note:   
+            class Demo
+            {
+                public:
+                    demo(int a, float b)
+                    {
+                        cout<<a<<" "<<b<<endl;
+                    }
+            };
+            demo x=demo(7, 9.4)
+            or 
+            demo x(7, 9.4)
+
+            
+
+                DYNAMIC CONSTRUCTOR
+
+    ---> user new operator in constructor defination
+            i.e: a= (int *)malloc(5*sizeof(int));
+                  a=new int[5];
+
+        
+        for deletion of memory
+        int *a;
+        free(a);     //in c
+        delete(a);   //in cpp

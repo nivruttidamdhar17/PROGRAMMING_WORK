@@ -1,0 +1,34 @@
+SETS IN PYTHON:
+Sets is a collection of non repetative elements.
+
+s=set()       ----->no repetative allowed
+s.add(1)
+s.add(2)      -----> or set={1,2}
+
+If you are a programming beginner without much knowledge of mathematical,
+operators on sets, you can simply look at sets in python as data types containing unique values.
+
+PROPERTIES OF SETS
+
+1) Sets are unordered   => Elements order dosent matter
+2) Sets are unindexed   => Cannot acces element element by index
+3) There is no way to change items in sets.
+4) Sets cannot contain duplicate values.
+
+
+OPERATIONS ON SETS:
+Consider the following set:
+            s={1, 8, 2, 3}
+
+1)len(s): Returns length of the set (i.e. 4 for above given set)
+
+2)s.remove(s): Updates the set s and removes 8 from set.
+
+3)s.pop(): Removes an arbitary elements from the set and returns the element removal.
+
+4)s.clear(): Empties the set s.
+
+5)s.union({8, 11}): Returns a new set with all items from both set  ==>{1,8,2,3,11}
+
+6)s.intersection({8,11}): Returns a set which contain only items in both sets ==>{8}.
+

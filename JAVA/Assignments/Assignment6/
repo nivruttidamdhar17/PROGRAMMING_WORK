@@ -1,0 +1,23 @@
+import java.util.*;
+class Program1
+{
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter marks of all five subjects: ");
+	
+	int sub1 = sc.nextInt();
+	int sub2 = sc.nextInt();
+	int sub3 = sc.nextInt();
+	int sub4 = sc.nextInt();
+	int sub5 = sc.nextInt();
+	int sum;
+	if((sub1 && sub2)>35)
+	{
+		sum = sub1+sub2;	
+	}
+	/*else if((sub3 && sub4)>35)
+	{
+		
+	}*/
+	System.out.println(sum);
+	
+}

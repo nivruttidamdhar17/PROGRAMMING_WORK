@@ -1,0 +1,83 @@
+What it is not:(aka Myth about type casting): 
+If instance of type T1 is cast into type T2 then 
+the instance (of T1) gets converted into instance of T2. 
+[MYTH ^^^: WE MUST DISCARD THIS AT THE EARLIEST !!!]
+
+#-----------------------------------------------------------------
+
+What is it?? 
+
+1)  expression: valid combination of operators and operands. 
+    validity of combination is checked against the following 
+    properties of operators: 
+        i)      ary 
+        ii)     sequence : prefix/infix/postfix 
+        iii)    associativity 
+        iv)     precedence 
+    + 
+    type checking 
+
+    a + b 
+    a + b * c 
+    a - b / c; 
+    a[i] * *p; 
+    a[j] * *p++; 
+
+2)  Inferred type of an expression: 
+    int a=10, b=20, c; 
+
+    c = a * b; 
+
+    type(a):int     ... declared by programmer 
+    type(b):int     ... declared by programmer 
+    type(a*b):int   ... by type inference 
+
+3)  Let expr be an expression. 
+    Let Ti be its inferred type. 
+
+    int a; 
+    int b; 
+    expr : a + b * 10 
+    type(a): int    ... declared 
+    type(b): int    ... declared 
+    type(10): int   ... inferred 
+    type(b*10):int   ... inferred 
+    type(a + b*10):int ... inferred 
+
+    Ti = int 
+
+    expr: a + b * 3.14f 
+
+    type(a) = int           ... declared 
+    type(b) = int           ... declared 
+    type(3.14f) = float     ... inferred 
+    type(b*3.14f) = float   ... inferred 
+    type(a+b*3.14f) = float ... inferred 
+
+    Ti = float 
+
+4)  Type casting: Type casting feature if supported by programming language, 
+    gives programmer ability to OVERRIDE an inferred type of an expression. 
+
+    The C Programming language supports type casting and a C programmer must use the 
+    following syntax in order to use it. 
+
+    (Tc)expr 
+
+    Where Tc = Casted Type 
+    Assume that Ti is an inferred type of the expression. 
+    Tc != Ti 
+  
+    int a = 10, b = 20; 
+
+    (float)(a+b); 
+
+    expr -> Ti
+    (Tc)expr 
+
+    (Tc)expr
+
+    OPERATOR((Tc)expr)
+    OPERATOR(expr)
+
+    

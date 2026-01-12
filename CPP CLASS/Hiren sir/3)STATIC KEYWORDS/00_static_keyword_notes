@@ -1,0 +1,34 @@
+                        STATIC KEYWORDS
+
+1) Static is keyword decalred to member variables and member function, never declared to class.
+
+2)Static property (member variable and member function) work as a common property for all objects.
+
+3) Static property accessed by:
+            scope resolution operator                          
+                     \                  member variable
+                      \                 /
+             classname::property name
+                                        \
+                                        member functions.
+
+4) Static keywords never declared to virtual function.
+5) Static functions never over ride.
+
+            non Static:                             member variable
+                                                        /
+                                        object variable.
+                                                        \
+                                                    member function
+
+
+            static:                             member variables
+                                                    /
+                                        classname::
+                                                    \
+                                                member function
+
+6) Static variables must be initilized at outside class before used.
+    syntax:
+            datatype classname:: static variable=value;
+

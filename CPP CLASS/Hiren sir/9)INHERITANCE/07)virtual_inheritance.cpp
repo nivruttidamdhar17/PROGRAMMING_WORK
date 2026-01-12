@@ -1,0 +1,1 @@
+// create a class employee(eno, ename,salary) create a two derived class incentive (HRA, DA----HRA is 7% of salary , DA is 5% of salary) and tax(pf(3% of salary), gst(2% of salary)) from employee class. create a derived class salary generated (net salary) from incentice and class

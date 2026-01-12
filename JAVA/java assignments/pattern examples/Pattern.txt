@@ -1,0 +1,862 @@
+
+***Patterns for program***
+
+Pattern1
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+
+
+Pattern2
+1 1 1 1 1
+2 2 2 2 2 
+3 3 3 3 3
+4 4 4 4 4
+5 5 5 5 5
+
+
+Pattern3
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+
+Pattern4
+A A A A A
+B B B B B
+C C C C C
+D D D D D
+E E E E E
+
+
+Pattern5
+A B C D E
+A B C D E 
+A B C D E
+A B C D E
+A B C D E
+
+
+Pattern6
+5 5 5 5 5
+4 4 4 4 4
+3 3 3 3 3
+2 2 2 2 2 
+1 1 1 1 1
+
+
+Pattern7
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+
+
+Pattern8
+E E E E E
+D D D D D
+C C C C C
+B B B B B
+A A A A A
+
+
+Pattern9
+E D C B A
+E D C B A 
+E D C B A
+E D C B A
+E D C B A
+
+
+Pattern10
+*
+* *
+* * * 
+* * * *
+* * * * *
+
+
+Pattern11
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+
+
+Pattern12
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+
+Pattern13
+A
+B B 
+C C C
+D D D D
+E E E E E
+
+
+Pattern14
+A 
+A B
+A B C
+A B C D
+A B C D E
+
+
+Pattern15
+* * * * *
+* * * *
+* * * 
+* * 
+*
+
+
+Pattern16
+1 1 1 1 1
+2 2 2 2
+3 3 3
+4 4
+5
+
+
+Pattern17
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+
+
+Pattern18
+A A A A A
+B B B B
+C C C 
+D D 
+E 
+
+
+Pattern19
+A B C D E
+A B C D
+A B C
+A B
+A
+
+
+Pattern20
+5 5 5 5 5
+4 4 4 4
+3 3 3
+2 2 
+1 
+
+
+Pattern21
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4 
+5 
+
+
+Pattern22
+E E E E E
+D D D D
+C C C
+B B 
+A
+
+
+Pattern23
+E D C B A
+E D C B
+E D C
+E D
+E
+
+
+Pattern24
+         *
+       * *
+     * * *
+   * * * * 
+ * * * * *
+
+
+Pattern25
+        1
+      2 2
+    3 3 3
+  4 4 4 4
+5 5 5 5 5
+
+
+Pattern26
+        1
+      1 2
+    1 2 3
+  1 2 3 4
+1 2 3 4 5
+
+
+Pattern27
+         A
+       B B
+     C C C 
+   D D D D
+ E E E E E
+
+
+Pattern28
+         A 
+       A B
+     A B C
+   A B C D
+ A B C D E
+
+
+Pattern29
+ * * * * *
+   * * * *
+     * * *
+       * *
+         *
+
+
+Pattern30
+5 5 5 5 5
+  4 4 4 4
+    3 3 3
+      2 2
+        1
+
+
+Pattern31
+1 2 3 4 5
+  1 2 3 4
+    1 2 3
+      1 2 
+        1
+
+
+Pattern32
+E E E E E
+  D D D D
+    C C C
+      B B
+        A
+
+
+Pattern33
+A B C D E
+  A B C D
+    A B C 
+      A B
+        A
+
+
+Pattern34
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * * 
+
+
+Pattern35
+        1
+      2 2 2 
+    3 3 3 3 3
+  4 4 4 4 4 4 4
+5 5 5 5 5 5 5 5 5
+
+
+Pattern36
+        1
+      3 3 3 
+    5 5 5 5 5 
+  7 7 7 7 7 7 7
+9 9 9 9 9 9 9 9 9 
+
+
+Pattern37
+        A
+      B B B
+    C C C C C
+  D D D D D D D
+E E E E E E E E E
+
+
+Pattern38
+        A
+      C C C 
+    E E E E E
+  G G G G G G G
+I I I I I I I I I
+
+
+Pattern39
+        1
+      1 2 3
+    1 2 3 4 5 
+  1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8 9
+
+
+Pattern40
+        1
+      3 2 1
+    5 4 3 2 1
+  7 6 5 4 3 2 1
+9 8 7 6 5 4 3 2 1
+
+
+Pattern41
+        A
+      A B C 
+    A B C D E 
+  A B C D E F G
+A B C D E F G H I
+
+
+Pattern42
+        A
+      C B A
+    E D C B A
+  G F E D C B A
+I H G F E D C B A
+
+
+Pattern43
+        0
+      1 0 1
+    2 1 0 1 2
+  3 2 1 0 1 2 3
+4 3 2 1 0 1 2 3 4
+
+
+Pattern44
+        A
+      B A B 
+    C B A B C
+  D C B A B C D
+E D C B A B C D E
+
+
+Pattern45
+      1
+    1 2 1
+  1 2 3 2 1
+1 2 3 4 3 2 1
+
+
+Pattern46
+        A
+      A B A
+    A B C A B
+  A B C D A B C
+A B C D E A B C D
+
+
+Pattern47
+   * * * * * * *
+     * * * * *
+       * * * 
+         *
+
+
+Pattern48
+4 4 4 4 4 4 4 
+  3 3 3 3 3
+    2 2 2 
+      1
+
+
+Pattern49
+7 7 7 7 7 7 7
+  5 5 5 5 5
+    3 3 3 
+      1
+
+
+Pattern50
+1 2 3 4 5 6 7
+  1 2 3 4 5
+    1 2 3 
+      1
+
+
+Pattern51
+D D D D D D D
+  C C C C C
+    B B B 
+      A 
+
+
+Pattern52
+G G G G G G G
+  E E E E E
+    C C C 
+      A
+
+
+Pattern53
+A B C D E F G
+  A B C D E
+    A B C 
+      A 
+
+
+Pattern54
+* 
+* *
+* * *
+* * * *
+* * *
+* *
+*
+
+
+Pattern55
+3 
+3 2 
+3 2 1 
+3 2 1 0
+3 2 1 
+3 2
+3 
+
+
+Pattern56
+3 
+2 3 
+1 2 3
+0 1 2 3
+1 2 3
+2 3
+3 
+
+
+Pattern57
+D
+D C
+D C B
+D C B A
+D C B
+D C
+D 
+
+
+Pattern58
+D 
+C D
+B C D
+A B C D
+B C D
+C D
+D 
+
+
+Pattern59
+       * 
+     * *
+   * * *
+ * * * *
+   * * *
+     * *
+       *
+
+
+Pattern60
+        3
+      3 2 
+    3 2 1 
+  3 2 1 0
+    3 2 1
+      3 2 
+        3
+
+
+Pattern61
+        3
+      2 3
+    1 2 3 
+  0 1 2 3 
+    1 2 3
+      2 3
+        3
+
+
+Pattern62
+        D
+      C D
+    B C D
+  A B C D
+    B C D
+      C D
+        D
+
+
+Pattern63
+        D
+      D C
+    D C B
+  D C B A
+    D C B
+      D C
+        D
+
+
+Pattern64
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+
+
+Pattern65
+     1
+    2 2
+   3 3 3
+  4 4 4 4
+ 5 5 5 5 5
+
+
+Pattern66
+     1
+    1 2 
+   1 2 3 
+  1 2 3 4
+ 1 2 3 4 5
+
+
+Pattern67
+     A
+    B B
+   C C C
+  D D D D
+ E E E E E
+
+
+Pattern68
+     A
+    A B
+   A B C
+  A B C D
+ A B C D E
+
+
+Pattern69
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+
+
+Pattern70
+ 5 5 5 5 5
+  4 4 4 4
+   3 3 3
+    2 2
+     1 
+
+
+Pattern71
+ 5 4 3 2 1
+  4 3 2 1
+   3 2 1
+    2 1
+     1
+
+
+Pattern72
+ E E E E E
+  D D D D
+   C C C
+    B B
+     A
+
+
+Pattern73
+ E D C B A
+  D C B A
+   C B A 
+    B A
+     A
+
+
+Pattern74
+ A B C D E
+  A B C D
+   A B C 
+    A B 
+     A
+
+
+Pattern75
+      *
+     * *
+    * * *
+   * * * *
+  * * * * *
+   * * * *
+    * * *
+     * *
+      *
+
+
+Pattern76
+      1
+     2 2
+    3 3 3
+   4 4 4 4
+  5 5 5 5 5
+   4 4 4 4
+    3 3 3 
+     2 2
+      1
+
+Pattern77
+      1
+     1 2
+    1 2 3
+   1 2 3 4
+  1 2 3 4 5
+   2 3 4 5
+    3 4 5
+     4 5
+      5
+
+Pattern78
+       1
+      1 2
+     1 2 3
+    1 2 3 4
+   1 2 3 4 5
+    1 2 3 4
+     1 2 3
+      1 2
+       1
+
+Pattern79
+      A
+     B B
+    C C C
+   D D D D
+  E E E E E
+   D D D D
+    C C C
+     B B
+      A
+
+Pattern80
+      A
+     A B
+    A B C
+   A B C D
+  A B C D E
+   B C D E
+    C D E
+     D E
+      E
+
+Pattern81
+          *
+         * *
+        *   *
+       *     *
+      *       *
+
+
+Pattern82
+          1
+         2 2
+        3   3
+       4     4
+      5       5
+
+
+Pattern83
+          5
+         4 4
+        3   3
+       2     2
+      1       1
+
+
+Pattern84
+          A
+         B B
+        C   C
+       D     D
+      E       E
+
+
+Pattern85
+          E
+         D D
+        C   C
+       B     B
+      A       A
+
+
+Pattern86
+
+      *       *
+       *     *
+        *   *
+         * *
+          *
+
+
+Pattern87
+
+      1       1
+       2     2
+        3   3
+         4 4
+          5
+
+
+Pattern88
+
+      5       5
+       4     4
+        3   3
+         2 2
+          1
+
+
+Pattern89
+
+      A       A
+       B     B
+        C   C
+         D D
+          E
+
+
+Pattern90
+
+      E       E
+       D     D
+        C   C
+         B B
+          A
+
+
+Pattern91
+           *
+          * *
+         *   *
+        *     *
+       *       *
+        *     *
+         *   *
+          * *
+           *
+
+
+Pattern92
+           1
+          2 2
+         3   3
+        4     4
+       5       5
+        4     4
+         3   3
+          2 2
+           1
+
+
+Pattern93
+           5
+          4 4
+         3   3
+        2     2
+       1       1
+        2     2
+         3   3
+          4 4
+           5
+
+
+Pattern94
+           A
+          B B
+         C   C
+        D     D
+       E       E
+        D     D
+         C   C
+          B B
+           A
+
+
+Pattern95
+           E
+          D D
+         C   C
+        B     B
+       A       A
+        B     B
+         C   C
+          D D
+           E
+
+
+Pattern96
+  * * * * * * * * * *
+  * * * *     * * * *
+  * * *         * * *
+  * *             * *
+  *                 *
+
+
+Pattern97
+
+  *                 *
+  * *             * * 
+  * * *         * * * 
+  * * * *     * * * *
+  * * * * * * * * * *
+
+
+Pattern98
+
+  *             *
+  * *         * *
+  * * *     * * *
+  * * * * * * * *
+  * * *     * * *
+  * *         * *
+  *             *
+
+
+Pattern99
+
+        *             *
+      * * *         * * *
+    * * * * *     * * * * *
+  * * * * * * * * * * * * * *
+
+
+Pattern100
+
+      *         *
+     * *       * *
+    * * *     * * *
+   * * * *   * * * *
+  * * * * * * * * * *

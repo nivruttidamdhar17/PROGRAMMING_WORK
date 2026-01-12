@@ -1,0 +1,104 @@
+                            FILE HANDLING
+                        
+--- PERFORMS ACTION ON FILE.
+--- USE HEADER "#INCLUDE<FSTREAM>".
+
+**TYPES**
+1)   IFSTREAM:-
+    --- INPUT FILE STREAM.
+    --- READ ONLY FILES.
+
+2)  OFSTREAM:-
+    --- OUTPUT FILE STREAM.
+    --- WRITE ONLY FILE.
+
+3)  FSTREAM:-
+    --- FILE STREAM.
+    --- READ AND WRITE FILE.
+
+
+**OPERATIONS**
+1)  OPEN()
+    --- FILE ASSIGN.
+
+2)  CLOSE()
+    --- CLOSE FILE MEANS RELEASE FILE.
+
+3)  GET()
+    --- READ ONLY ONE CHARACTER FROM FILE.
+
+4)  PUT()
+    --- WRITE ON CHARACTR INTO FILE.
+
+5)  READ()
+    --- READ OBJECT VALUE FROM FILE.
+
+6)  WRITE()
+    --- WRITE OBJECT VALUE INTO FILE.
+
+7) EOF(): END OF FILE
+    --- RETURNS '1' IF FILE IS FINISHED ELSE RETURN '0' IF FILE IS NOT FINISHED.
+
+
+**EXCEPTION HANDLING**
+
+    --- TO HANDLE RUNTIME ERROR AND USED FOR CREATING RUNTIME ERRORS.
+    --- THERE ARE ONLY THREE KEYWORDS IN EXCEPTION HANDLING.
+
+1) TRY:- CONSISTS RUNTIME ERRORS STATEMENTS.
+
+2) CATCH:- SOLVE THE RUNTIME ERRORS WHICH IS OCCURING IN TRY BLOCK.
+
+3) THROW:- USED FOR CREATING RUNTIME ERRORS.
+
+    ---THROW SYNTAX:- 
+
+    ---THROW VARIABLE:-
+
+    IT IS 100% RUNTIME ERROR STATEMENT. SO WHEN COMPILER EXECUTES IT, THEN IT THROW RUNTIME ERROR AND PROGRAM EXECUTION TERMINATES.
+
+**TEMPLATES**
+
+1)  FUNCTION TEMPLET: FUNCTION OVERLOADING
+
+2)  CLASS TEMPLET: CLASS OVERLOADING.
+
+FUNCTION OVERLOADING:-
+        \* VOID ADD(INT A, INT B)
+         {
+            INT C=A+B;
+            COUT<<"ADDITION : <<C<<ENDL;
+         }
+         VOID ADD(FLOAT A, FLOAT B)
+        {
+            FLOAT C=A+B;
+            COUT<<"ADDITION: "<<C<<ENDL;
+        }
+        VOID ADD(LONG A,LONG B)
+        {
+            LONG C=A+B;
+            COUT<<"ADDITION: "<<C<<ENDL;
+        }        
+        INT MAIN()
+        {
+            ADD(7.2,8.9)
+            ADD(6L,3L)
+            ADD(3,6)
+            RETURN 0;
+        }
+       */
+
+USING TEMPLATE:-
+        TEMPLATE<CLASS T>
+        VOID ADD(T P, T A)
+        {
+            T R=P+A;
+            COUT<<"ADDITION: "<<R<<ENDL;
+        }
+        INT MAIN()
+        {
+            ADD(6.2,7.9)
+            ADD(7L,11L)
+            ADD(3,10)
+            RETURN 0;
+        }}

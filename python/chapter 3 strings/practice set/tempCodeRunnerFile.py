@@ -1,0 +1,1 @@
+"This is the string with double 8 spaces"

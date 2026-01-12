@@ -1,0 +1,37 @@
+                        INHERITANCE
+
+----> One class want to use properties of another class, then uses INHERITANCE.
+---->  ':' is symbol of inheritance.
+----> In inheritance, child class can use self class properties as well as parent class properties.
+----> In inheritance, parent class reference variable can uses self class object as well as child class object.
+
+
+----> Child class only inheriates protected and public property it never inheriates private properties.
+
+
+TYPES OF INHERITANCE
+1)SINGLE LEVEL INHERITANCE:
+    One class inheriates only one class at a time.
+    e.g:
+    class A
+    {
+
+    };
+    class B: public a
+    {
+
+    };
+            A -----> B
+
+
+2) MULTILEVEL INHERITANCE:
+    One class inheriates one class at a time, but inheriates multiclass properties at a time.
+
+    one parent class have a only child class.
+
+            A ----> B ----> C ----> D
+
+
+3)HIRARCHICLE INHERITANCE:
+    One class inheriates one class ar a tine, but inheritance multiclass properties at a time.
+    One parent class have a multiple child class.

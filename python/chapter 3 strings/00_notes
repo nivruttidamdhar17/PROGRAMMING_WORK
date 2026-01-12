@@ -1,0 +1,82 @@
+                    STRING
+
+String is a data type in python.
+#string is a sequence of characters enclosed in quotes.
+#we can primarly, write a string in these three ways.
+
+1)Single quoted strings --> a='Nivrutti'
+2)Double quoted strings --> b="Nivrutti"
+3)Triple quoted strings --> c='''Nivrutti'''
+
+
+"STRING SLICING"
+1)A string in python can be sliced for getting a part of the string.
+
+consider following string:
+name="Nivrutti"
+name= "N  i  v  r  u  t  t  i" ==> length=8
+       |  |  |  |  |  |  |  |
+       0  1  2  3  4  5  6  7
+     (-8 -7 -6 -5 -4 -3 -2 -1)-->Negative indices
+
+
+2)the index in a string starts from 0 to (length-1) in python.
+3)in order to slice a string , we use the following syntax:
+
+        sl=name[ind_start:ind_end]
+                    /         \
+                   /           \
+            first index     last index is
+            included         not included.
+
+        #eg:  sl[0:3] returns "Niv" -->characters from 0 to 3
+        sl[2:5] returns "vru" -->characters from 2 to 5
+         
+        
+   NEGATIVE INDICES:
+   Negative indices can also be used as shown in above figure, -1 corresponds to the (length-1) index, -2 to (length-2)....
+
+
+*SLICING WITH SKIP VALUE*
+We can provide a skip value as a part of our slice like this:
+ 
+     word="amazing"
+     word[1:6:2] --->'mzn'
+
+   Other advanced slicing technique
+
+     word="amazing"
+     word[:7] ---> word[0:7] --->'amazing'
+     word[0:] ---> word[0:7] --->'amazing'
+
+
+
+
+** STRING FUNCTIONS**
+    
+    Some of the mostly used function to perform operation on or manipulate strings are:
+
+1) len() function
+-->this function returns the length of the string
+     len("Nivrutti")---> return 8
+
+2) string.endswith("tti")
+-->this function tells whether the variable string ends with the string "tti" or not. if string is "Nivrutti", it returns true for "tti" since Nivrutti ends with tti
+
+3) string.Count("c")
+-->Count the total number of occurance of any character
+
+4) string.Capitalize()
+-->This function the first character of a given string.
+
+5) string.find (word)
+-->This function finds a word and returns the index of first occurence of that word in the string.
+
+6) string.replace(oldword,newword)
+--> This function replace the oldword with newword in the entier string.
+
+7)Escape sequence character
+--> Sequence of characters after backslash '\' (--->escape sequence chatacter)
+--> Escape sequence character comprises of more than one character but represents one chatacter when used within the strings.
+
+   eg: \n (-->new line), \t (tab),  \'(single quote), \\ (backslash),  etc.

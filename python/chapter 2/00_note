@@ -1,0 +1,60 @@
+# variable: a variable is the name given to a memory location in a program.
+eg: a=30, b='nivrutti', c=31.22
+
+variable--> container to store value
+keywords--> reserved words in python.
+Identifiers--> class/ function/ variable name.
+ 
+
+
+DATA TYPES-
+#Integers: eg: 1,4,8,5,-4,-3,-9; 
+#floating points number: the number in which has decimal
+  #eg: 7.09, 8.45, 3.64, 123.687;
+#string: collections of characters enclosec in single quote or double quote.
+  #eg: 'Nivrutti', "Dhanshri",''' "SHRIRAM" ''' 
+#Boolean: true or false.
+  #eg: 3>5---false,   5>3---true.
+#None:
+
+
+RULES FOR DEFINING A VARIABLE NAME
+#A variable name can contain ALPHABETS, DIGITS, and UNDERSCORE.
+#A variable name can only start with an alphabet  and underscore.
+#A variable name can't start with a digit.
+#No while space is allowed to be used inside a variable name. 
+
+
+OPERATORS IN PYTHON
+# ARITHMETIC OPERATORS
+# '+', '-', '*', '/'.
+
+# ASSIGNMENT OPERATORS
+# '=', '+=', '-='.
+
+# COMPARISON OPERATORS
+# '==', '>', '>=', '<', '!=', etc
+
+# LOGICAL OPERATORS
+# 'AND', 'OR', 'NOT',etc.
+
+
+type() function and Typecasting
+# type function is used to find the data type of a given variable in python.
+#eg: a=31
+# type(a)==> class<int>
+# b="31"
+# type(b)==> class<str>
+# 
+# A number can be converted into a string and vice versa(if possible)
+# there are many functions to convert one data type into another.
+
+# str(31)=>"31"     ---->integer to string conversion
+# int("32")=>32     ---->string to integer conversion
+# float(32)=>32.0   ---->integer to float conversion.
+
+INPUT() FUNCTION
+# This function allows the user to take input from the keyword as a string
+
+# a = input("Enter Name")
+# It is important to note that the output of input is always a string(even is the number is entered)

@@ -1,0 +1,6 @@
+                    INLINE FUNCTION
+
+1)Inline is a keyword declared only function, never declared to variable and class.
+2)Inline function is used for fast execution.
+3)Inline keyword declated only those function which has only small bits of code (only one line).
+4)Every member function are default inline in a class.
