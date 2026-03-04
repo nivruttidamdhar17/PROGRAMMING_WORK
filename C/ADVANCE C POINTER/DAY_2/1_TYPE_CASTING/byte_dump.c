@@ -6,7 +6,10 @@
     N :size of block 
 */
 
-struct Date { int day, month, year; } D = {7, 8, 2022}; 
+struct Date 
+{ 
+    int day, month, year; 
+} D = {7, 8, 2022}; 
 
 void show_byte_dump(void* p, size_t N); 
 

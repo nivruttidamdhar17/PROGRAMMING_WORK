@@ -56,6 +56,7 @@ Let's dissect exactly what is inside one Frame, from Top (High Address) to Botto
 
 * This is where `int x`, `char buf[100]` live.
 * **Allocation:** The compiler calculates the total size needed (e.g., 104 bytes) and simply subtracts that amount from `RSP`. Instant allocation!
+
 ![alt text](image-4.png)
 ---
 

@@ -1,0 +1,11 @@
+## Topics Covered in 04-POINTERS
+- Pointer declaration, initialization, dereferencing basics
+- Pointer arithmetic and array equivalence 
+- Pointer to pointer (**p), multi-level indirection
+- const/volatile qualifiers on pointers
+- Function pointers and callbacks
+- void* and type punning
+- Dynamic arrays and pointer-based memory management
+- Common pitfalls: null, dangling, wild pointers
+- Assembly mapping: load/store instructions, register usage
+- Interview questions with memory-level explanations
